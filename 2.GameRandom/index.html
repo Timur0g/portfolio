@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Game Random</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="text-main-top"><p>Выбери любую карту</p></div>
+
+	<div class="container" id="container">
+			<div class="container-carts-1">
+				<div class="cart-bck"><span></span></div>
+				<div class="cart" onclick="clickClient()"></div>	
+			</div>
+
+			<div class="container-carts-2">
+				<div class="cart-bck"><span></span></div>
+				<div class="cart" onclick="clickClient()"></div>
+			</div>
+
+			<div class="container-carts-3">
+				<div class="cart-bck"><span></span></div>
+				<div class="cart" onclick="clickClient()"></div>
+	 		</div>
+	</div>		
+	 <div class="button" onclick="clickBtn()">Заново</div>
+
+	 <div class="text-main-bottom"><span>Если быть честным, то это работа была проделана без подсказок интернета. 
+Расположить карточки по центру и с одинаковым расстоянием у меня получилось довольно быстро, а с JavaScript-ом пришлось попотеть.
+Реализация данной идеи, опять же, была полностью для меня ясна, но объяснить это браузеру было непросто. Сначала я записывал
+переменные карточек, но ничего не помогало. Потом, я решил, что их можно обозначить функциями, что тоже не увенчалось успехом.
+В процессе этого подбора, глядя на себя со стороны, я смеялся, потому что, часто обновлял страницу, в надежде, что условия
+рандома выполняются (не должно быть сразу трёх нулей или однёрок). Не хватало лишь музыки из "Деревни дураков" для полного погружения в ситуацию. Позже, всё-таки, я понял, что не пытался использовать объект со свойствами, после чего работа пошла, как по маслу. Сейчас так выглядит конечный результат. Думаю, что получил хороший опыт работы с JavaScript-ом.
+</span></div>
+	<script src="main.js"></script>
+</body>
+</html>

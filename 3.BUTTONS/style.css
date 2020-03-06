@@ -1,0 +1,108 @@
+* {
+	font-family: Tahoma;
+}
+
+body {
+	background-image: url('zvezdy_galaktika_mlechnyj_put_zvezdnoe_nebo_nochnoe_nebo_119125_6209x3665.jpg');
+	box-sizing: 100% no-repeat;
+}
+
+.container{
+	width: 70%;
+	height: 3000px;
+	background-color: #C4C4C4FF;
+	margin: 5% 15%;
+	display: flex;
+	justify-content: center;
+}
+
+.button-1 {
+	width: 350px;
+	height: 100px;
+	margin-top: 10%; 
+	background-image: linear-gradient(to top right, rgb(103, 107, 158), rgb(103, 104, 160), rgb(104, 100, 163), rgb(104, 97, 165), rgb(105, 94, 167), rgb(105, 90, 170), rgb(106, 87, 172), rgb(106, 83, 175), rgb(107, 80, 177), rgb(107, 77, 179), rgb(108, 73, 182), rgb(108, 70, 184));
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #EBDFEBFF;
+	border-radius: 60px;
+	overflow: hidden;
+}
+
+.button-1 span {
+	color: #EBDFEBFF;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 24px;
+	z-index: 9;
+	position: absolute;
+	letter-spacing: 4px;
+}
+
+.circle-1, .circle-2, .circle-3, .circle-4, .circle-5, .circle-6 {
+	border-radius: 50%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.circle-1 span, .circle-2 span, .circle-3 span, .circle-4 span, .circle-5 span, .circle-6 span {
+	color: black;
+}
+
+.circle-1 {
+	min-width: 100px;
+	min-height: 100px;
+	background-color: #D8D2C6B6;
+	top: 85px;
+    left: 260px;
+    transform-origin: 0 0;
+}
+
+.circle-2 {
+	min-width:70px;
+	min-height:70px;
+	background-color: #B889AAD0;
+	top: 20px;
+    left: 210px;
+    transform-origin: top right;
+}
+
+.circle-3 {
+	min-width: 70px;
+	min-height: 70px;
+	background-color: #8483F1C2;
+	top: -23px;
+    left: -3px;
+    transform-origin: bottom left;
+}
+
+.circle-4 {
+	min-width: 60px;
+	min-height: 60px;
+	background-color: #AB78CED4;
+	top: -35px;
+    left: -20px;
+    transform-origin: 0 0;
+}
+
+.circle-5 {
+	min-width: 130px;
+	min-height: 130px;
+	background-color: #8875CC95;
+	top: -18px;
+    left: -101px;
+    transform-origin: bottom right;
+}
+
+.circle-6 {
+	min-width: 100px;
+	min-height: 100px;
+	background-color: #9778C9BD;
+	top: 10px;
+    left: -338px;
+    transform-origin: top right;
+}
+
+
+

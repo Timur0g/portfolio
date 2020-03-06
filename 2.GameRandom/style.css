@@ -1,0 +1,132 @@
+* {
+	font-family: Tahoma;
+}
+
+body {
+	background-image: url('zvezdy_galaktika_mlechnyj_put_zvezdnoe_nebo_nochnoe_nebo_119125_6209x3665.jpg');
+}
+
+.text-main-top {
+	max-width: 800px;
+	height: 30px;
+	margin: 10% auto;
+	background-image: linear-gradient(to top right, rgb(10, 10, 15), rgb(20, 16, 26), rgb(30, 21, 38), rgb(41, 27, 49), rgb(51, 32, 60), rgb(61, 38, 72), rgb(71, 43, 83), rgb(81, 49, 95), rgb(91, 54, 106), rgb(102, 60, 117), rgb(112, 65, 129), rgb(122, 71, 140));
+	padding: 3%;
+	border: 1px solid #020012FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-main-top p {
+	color: #A29AB2FF;
+	font-size: 20px;
+}
+
+.container{
+	width: 90%;
+	height: 250px;
+	margin: 15% auto;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	top:0;
+}
+
+.container-carts-1{
+	width: 100%;
+	height: 300px;
+	left: 0;
+	top:0;;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	perspective:1000px;
+}
+
+.container-carts-2{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	perspective:1000px;
+}
+
+.container-carts-3{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	perspective:1000px;
+}
+
+.cart {
+	display: block;
+	position: absolute;
+	backface-visibility: hidden;
+	perspective:1000px;
+	width: 150px;
+	height: 250px;
+	background-color: #3F1857FF;
+	border: 1px solid #C4C4C4FF;
+	transition: transform 5s;
+}
+
+
+.cart-bck {
+	display: block;
+	width: 150px;
+	height: 247px;
+	position: absolute;
+	background-color: #00001AFF;
+	perspective:1000px;
+	transition: transform 5s;
+
+}
+
+.cart-bck span {
+	height: 247px;
+	color: white;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	perspective:1000px;
+	transform: rotateY(180deg);
+}
+
+.button {
+	width: 150px;
+	height: 30px;
+	background-image: linear-gradient(to top right, rgb(10, 10, 15), rgb(20, 16, 26), rgb(30, 21, 38), rgb(41, 27, 49), rgb(51, 32, 60), rgb(61, 38, 72), rgb(71, 43, 83), rgb(81, 49, 95), rgb(91, 54, 106), rgb(102, 60, 117), rgb(112, 65, 129), rgb(122, 71, 140));
+	color: #A29AB2FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #020012FF;
+	border-radius: 3%;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.text-main-bottom {
+	max-width: 800px;
+	margin: 10% auto;
+	background-image: linear-gradient(to top right, rgb(10, 10, 15), rgb(20, 16, 26), rgb(30, 21, 38), rgb(41, 27, 49), rgb(51, 32, 60), rgb(61, 38, 72), rgb(71, 43, 83), rgb(81, 49, 95), rgb(91, 54, 106), rgb(102, 60, 117), rgb(112, 65, 129), rgb(122, 71, 140));
+	padding: 3%;
+	border: 1px solid #020012FF;
+}
+
+.text-main-bottom span {
+	color: #A29AB2FF;
+}
+
+
+@media screen and (max-width: 560px) {
+	.container{
+	flex-wrap: wrap;
+	margin-bottom: 700px;
+}
+}

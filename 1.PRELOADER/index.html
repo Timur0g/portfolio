@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Preloader</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+<div class="container">
+	<div class="text-circle-main">
+		<span>Это мой первый самостоятельный проект. Могу только гадать о правильности данного метода:</span>
+	</div>
+	<div class="buttons">
+		<div class="btn a" onclick="interval(0, 1)"><span>Начать</span></div>
+		<div class="btn  b" onclick="inrevalNot(0,1)"><span>Остановить</span></div>
+	</div>
+	<div class="circle-main">
+		<div class="circle-1"></div>
+		<div class="circle-ico"></div>
+		<div class="circle-2"></div>
+	</div>
+
+	<div class="text-circle-main">
+		<span>На это прелоадер сверху ушло довольно много времени, хотя у меня было
+		чистое и ясное представленние о том, как это сделать, что считаю наиболее важным. Поворот по оси Z я решил сделать сбрасываемым, если его значение будет равняться 360-ти градусам. Первый вариант получился чуть кривой,
+		но выглядит, будто растягивается от движения. Не баг, а фича, как говориться. Теперь нужно сделать его ровным и исправить первичные ошибки: </span>
+	</div>
+	
+
+	<div class="buttons">
+		<div class="btn c" onclick="interval2(2, 3)"><span>Начать</span></div>
+		<div class="btn d" onclick="inrevalNot2(2, 3)"><span>Остановить</span></div>
+	</div>
+	<div class="circle-main-2">
+		<div class="circle-2-1">
+			<div class="circle-2-2"></div>
+			<div class="circle-ico-2"></div>
+		</div>
+	</div>
+
+	<div class="text-circle-main text-top">
+		<span>Теперь намного лучше! Время на эту работу заметно снизилось. К тому же, теперь эффект растяжения стал почти незаметным, отчего статичность прелоадера повысилась. Так-же, были исправлены некоторые неточности.</span>
+	</div>
+</div>
+	<script src="main.js"></script>
+</body>
+</html>
