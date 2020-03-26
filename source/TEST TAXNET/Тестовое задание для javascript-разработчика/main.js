@@ -278,11 +278,7 @@ search.oninput = function() {
         const button = document.querySelector('.button');
         button.style.display = 'none'
 
-        update_tags()
-
     } else {
-        update_tags()
-        show_json_tags()
         const show_tags = document.querySelector('.show_tags');
         show_tags.style.display = 'block'
 
