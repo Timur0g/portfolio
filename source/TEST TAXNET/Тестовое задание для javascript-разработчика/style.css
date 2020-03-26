@@ -1,0 +1,67 @@
+* {
+    font-family: Tahoma;
+}
+
+.container_app {
+    background-color: rgb(243, 242, 241);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.input {
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+}
+
+input {
+    height: 40px;
+    width: 550px;
+}
+
+.tags {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.tag {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.films,
+.tab {
+    font-size: 20px;
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button,
+.show_tags,
+.show_tab {
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: seagreen;
+    color: snow;
+    text-align: center;
+    cursor: pointer;
+}
